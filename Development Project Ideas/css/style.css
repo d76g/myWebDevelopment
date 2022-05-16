@@ -1,0 +1,149 @@
+.navBG {
+  background-color: rgb(251, 243, 243) !important;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center !important;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 600px;
+  left: 15%;
+  color: rgb(59, 55, 55);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(59, 55, 55);
+  font-size: 22px;
+}
+.arrowdownBG {
+  position: absolute;
+  padding-top: 40%;
+  padding-left: 50%;
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 5px;
+  }
+  50% {
+    top: 10px;
+  }
+  75% {
+    top: 25px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+#SlideshowImg {
+  object-fit: cover;
+}
+.bannerrow {
+  background-color: rgb(251, 243, 243);
+  text-align: center;
+  object-fit: cover;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: italic;
+  padding-top: 65px;
+  padding-bottom: 45px;
+}
+.parrow {
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  object-fit: cover;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: italic;
+}
+.line1,
+.line2 {
+  border-top: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+.parimg {
+  height: 300px;
+  background-image: url(/images/pic6a.jpg);
+  /*Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ales Nesetril</a> on <a href="https://unsplash.com/s/photos/tech?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+  background-size: auto;
+  background-attachment: scroll;
+}
+.h2par2 {
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+.par2 {
+  margin-top: 0px;
+  margin-bottom: 300px;
+  padding-left: 50px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: aliceblue;
+}
+.noMargin {
+  margin: 0% !important;
+  padding: 0% !important;
+}
+.fas {
+  font-size: 30px;
+  color: rgb(59, 55, 55);
+}
+.profilorow {
+  background-color: whitesmoke;
+  height: 300px;
+}
+h2.profiloh2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.line3 {
+  border-top: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 20%;
+  margin: auto;
+}
+.pfilo {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    left: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+    color: rgb(59, 55, 55);
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 400px;
+    left: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+    color: rgb(59, 55, 55);
+    text-align: center;
+    font-size: 24px;
+  }
+}

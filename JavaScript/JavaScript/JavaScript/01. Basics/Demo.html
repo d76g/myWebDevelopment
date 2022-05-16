@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn JS</title>
+        <style media="screen">
+          .Container {
+            margin: 0 auto;
+            margin-top: 100px;
+            justify-content: center;
+            background-color: rgba(68, 16, 173);
+            position: relative;
+            width: 500px;
+            height: 400px;
+          }
+          .innerContainer {
+            background-color: rgba(120, 214, 211);
+            width: 500px;
+            height: 400px;
+            margin: 0;
+            position: absolute;
+            top: 12%;
+          }
+          .inputContainer {
+            margin: 0 auto;
+            margin-top: -300px;
+            justify-content: center;
+            margin-left: 36%;
+            position: relative;
+          }
+          .detailsContainer {
+            margin-left: 36%;
+            margin-bottom: -100px;
+          }
+          .h1D {
+            margin: 0;
+            color: white;
+            text-align: center;
+            padding-top: 2px;
+          }
+          p {
+            font-family: monospace;
+            font-size: 1rem;
+            padding-top: 10px;
+            padding-left: 10px;
+          }
+          input {
+            font-family: monospace;
+            border-radius: 5px;
+            height: 30px;
+            width: 400px;
+
+          }
+          button {
+            font-family: monospace;
+            border-radius: 5px;
+            height: 35px;
+          }
+        </style>
+    </head>
+    <body >
+      <div class="Container">
+        <h1 class="h1D">Personal Details</h1>
+        <div class="innerContainer"></div>
+      </div>
+      <div class="inputContainer">
+        <input type="text" id="nameField" placeholder="Enter Your Name ...">
+        <br><br>
+        <input type="text" id="hpField" placeholder="Enter Your Phone Number ...">
+        <br><br>
+        <input type="text" id="addressField" placeholder="Enter Your Address ...">
+        <br><br>
+        <button id="Submit" onclick="showInfo()" name="submit">Submit</button>
+      </div>
+    </div>
+        <div class="detailsContainer">
+          <p id="fName"></p>
+          <p id="hpNumber"></p>
+          <p id="address"></p>
+      </div>
+
+    <script type="text/javascript" src="basics.js"></script>
+    </body>
+</html>

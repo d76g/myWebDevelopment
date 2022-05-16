@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Person Information</title>
+    <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+      .Container {
+        background-color: #eded;
+        width: 400px;
+        height: 600px;
+
+        margin: 15rem auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .innerContainer {
+        background-color: #dfdf;
+        display: flex;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+      }
+      button {
+        width: 50%;
+        margin: 5px auto;
+        padding: 5px;
+        top: 20px;
+        border-radius: 5px;
+        border: 0;
+      }
+      .Date {
+        font-family: monospace;
+        font-size: 14px;
+      }
+    </style>
+    <script type="text/javascript">
+      function SayHello(name, age) {
+        document.write("Hello "+ name + " You Age is "+ age);
+      }
+    </script>
+  </head>
+  <body>
+    <p> Click to Say Hello</p>
+    <form class="" action="index.html" method="post">
+      <input type="text" name="t1" placeholder="Your Name:">
+      <input type="text" name="t2" placeholder="Your Age:">
+      <input type="button"  value="Submit" onclick="SayHello(t1.value, t2.value)">
+    </form>
+    <script type="text/javascript" src="basics.js"></script>
+  </body>
+</html>

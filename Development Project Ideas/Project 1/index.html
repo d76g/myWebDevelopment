@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>T9 Photography</title>
+        <!--Web site Styling-->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <!-- rel is to tell the browser that this is a style sheet-->
+        <!-- Always write CSS files first-->
+        <!--Script Files-->
+        <script src="/js/main.js"></script>
+    </head>
+    <body id="body">
+        <header>
+            <div class="header-container">
+                <div id="company-logo">
+                    <h1>
+                        <a href="/index.html" class="logo-text">تي ستيديو</a>
+                    </h1>
+                </div>
+                <nav class="menu-wrapper">
+                    <ul id="main-menu">
+                        <li class="menu-item">
+                            <a href="#ourStory">قصتنا</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#gallery">صور</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#events">أحداث</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#contact">تواصل بنا</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="hero-image">
+            <div class="overlay">
+                <h2 class="tag-line">نــلـطقت الخيال</h2>
+            </div>
+        </div>
+        <a href="#body" id="topButton" title="Go to Top">Top</a>
+        <section id="ourStory">
+            <div class="container">
+                <h3>Our Story</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quidem voluptate ipsam harum quo dolor et fugit, quos explicabo esse ullam totam sapiente praesentium inventore porro eveniet in, sequi cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quidem voluptate ipsam harum quo dolor et fugit, quos explicabo esse ullam totam sapiente praesentium inventore porro eveniet in, sequi cupiditate.
+                </p>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container">
+                <h3>Gallery</h3>
+                <p class="gallery-discription"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorum unde ducimus. Rem tempora quis placeat quas recusandae, modi amet repellat enim doloremque nam aspernatur natus ex ratione aliquid! Molestiae!</p>
+                <div id="gallery-wrapper">
+                    <div class="gallery-row">
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/491/300/200" alt="Picture 1"/>
+                                <p>Image Title 1</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/384/300/200" alt="Picture 1"/>
+                                <p>Image Title 2</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/410/300/200" alt="Picture 1"/>
+                                <p>Image Title 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-row">
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/200/300/200" alt="Picture 1"/>
+                                <p>Image Title 5</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/201/300/200" alt="Picture 1"/>
+                                <p>Image Title 6</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div>
+                                <img src="https://picsum.photos/id/202/300/200" alt="Picture 1"/>
+                                <p>Image Title 7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="events">
+            <div class="container">
+                <h3>Up coming Events</h3>
+                <table id="up-comingTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Event</th>
+                            <th>Location</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10/4/2021</td>
+                            <td>Jully Fish </td>
+                            <td>Serlangor Park</td>
+                            <td>New Jully Fishes will arrive.</td>
+                        </tr>
+                        <tr>
+                            <td>10/8/2021</td>
+                            <td>KLCC Water Fall </td>
+                            <td>Kuala Lumpur Park</td>
+                            <td>Opening Event</td>
+                        </tr>
+                        <tr>
+                            <td>10/17/2021</td>
+                            <td>Graduation Cermoney </td>
+                            <td>UTHM Park</td>
+                            <td>Undergrade Cermoney</td>
+                        </tr>
+                        <tr>
+                            <td class="table-bottom"></td>
+                            <td class="table-bottom"></td>
+                            <td class="table-bottom"></td>
+                            <td class="table-bottom"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>Send your feedback via Email...</p>
+                <form action="https://mailthis.to/b2newfact@gmail.com" method="POST">
+                    <fieldset>
+                    <input type="text" name="name" placeholder="Your Name...">
+                    <input type="email" name="reply-to" placeholder="Your Email...">
+                    <textarea name="message" id="message" placeholder="Enter Your Feedback..."></textarea>
+                    <button>Send</button>
+                    <input type="hidden" name="_confirmation" value="Your Form has been submitted !">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <nav class="menu-wrapper">
+                    <ul id="footer-menu">
+                        <li class="menu-item">
+                            <a href="#">Privacy & Policy</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Sponcers</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="copyright">
+                    &copy Copyrights - T9
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

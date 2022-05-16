@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap");
+
+/* النجمة تستخدم لتحديد كل محتوى الصفحة */
+* {
+  font-family: "Yaldevi", sans-serif;
+  /* لحدف الفراغات المحيطة في الصفحة */
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  background-color: rgb(218, 73, 73);
+  height: 40px;
+  padding: 20px;
+  position: fixed;
+  z-index: 300; /* لكي يكون تحت الكلام */
+}
+.header-container {
+  display: flex; /* لترتيب المحتوى بشكل عمودي أو أفقي */
+  flex-direction: row;
+  width: 970px;
+  margin: auto;
+}
+header h1 {
+  font-size: 25px;
+  font-weight: thin;
+  color: rgb(26, 46, 39);
+  line-height: 35px; /* لتحديد ارتفاع اسم الموقع */
+}
+
+header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "El Messiri", sans-serif;
+}
+h2 {
+  font-family: "Vibes", cursive;
+}
+.menu-wrapper a {
+  font-size: larger;
+}
+a:hover {
+  /* ظهور خط عند مرور الإشارة على الكلام */
+  text-decoration: underline;
+}
+#company-logo {
+  flex: 2;
+}
+
+.menu-wrapper {
+  flex: 2;
+  line-height: 35px;
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}

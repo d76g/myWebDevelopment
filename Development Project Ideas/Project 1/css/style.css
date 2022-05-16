@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Vibes&family=Yaldevi:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap");
+
+* {
+  font-family: "Yaldevi", sans-serif;
+}
+header h1 {
+  font-size: 25px;
+  font-weight: thin;
+  color: rgb(26, 46, 39);
+  line-height: 35px;
+}
+h2 {
+  font-family: "Vibes", cursive;
+}
+header a {
+  color: rgb(51, 22, 22);
+  text-decoration: none;
+  font-family: "El Messiri", sans-serif;
+}
+.menu-wrapper a {
+  font-size: larger;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: block;
+  padding-top: 75px;
+}
+
+.container {
+  width: 970px;
+  margin: auto;
+  padding-top: 75px;
+}
+.container h3,
+.container h4 {
+  margin: 20px 0;
+  text-align: center;
+}
+.container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.container h4 {
+  font-size: 14px;
+}
+
+/*header*/
+
+.header-container,
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 970px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 75px;
+  padding: 20px;
+  position: fixed;
+  z-index: 300;
+}
+
+#company-logo {
+  flex: 2;
+}
+
+.menu-wrapper {
+  flex: 2;
+  line-height: 35px;
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/*background image*/
+
+#hero-image {
+  height: 100vh;
+  background: #333 url(/images/sunrise.jpg) no-repeat fixed bottom;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tag-line {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+}
+
+/*top-buttob*/
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#topButton:hover {
+  background-color: white;
+  color: red;
+}
+
+/* Our Story */
+
+#ourStory {
+  padding-top: 25px 0px;
+}
+#ourStory p {
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+/* Gallery */
+
+#gallery {
+  background-color: #333;
+  color: #fff;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+.gallery-item {
+  flex: 1;
+  flex-basis: 33%;
+}
+.gallery-discription {
+  margin-bottom: 20px;
+}
+
+/*events*/
+
+table {
+  border-radius: 1em;
+}
+#events {
+  background-color: #eee;
+  padding: 25px 0px;
+}
+#up-comingTable {
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin-bottom: 20px;
+  text-align: left;
+}
+th {
+  background-color: #ddd;
+  width: 60px;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px solid #333;
+  border-radius: 5px 5px 0px 0px;
+}
+
+td {
+  padding-left: 5px;
+  border-left: 2px solid #333;
+}
+
+.table-bottom {
+  border-left: none;
+  border-bottom: 2px solid #333;
+}
+
+/*contact*/
+
+#contact {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+#contact fieldset {
+  width: 80%;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 5px;
+}
+#contact p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#contact input,
+#contact textarea {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#contact input {
+  height: 50px;
+}
+#contact textarea {
+  height: 200px;
+}
+#contact button {
+  width: 99%;
+  height: 50px;
+  position: relative;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  transition: 0.3s;
+
+  opacity: 0.6;
+}
+#contact button:hover {
+  width: 100%;
+  border: 1px #ccc solid;
+  border-radius: 7px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/*footer*/
+
+footer {
+  background-color: #eee;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+}
+
+footer .menu-wrapper {
+  flex: 1;
+  line-height: 35px;
+  text-align: left;
+  text-decoration: none;
+}
+
+footer nav ul li {
+  display: block;
+  margin-right: 20px;
+  padding: 0px 10px;
+}
+
+#copyright {
+  line-height: 100px;
+}
+
+footer a {
+  color: rgb(51, 22, 22);
+  text-decoration: none;
+}

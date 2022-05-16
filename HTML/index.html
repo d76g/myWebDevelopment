@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technology Experts</title>
+    <style>
+        h1 {
+            color: blueviolet;
+            font-family: monospace;
+            font-size: 30px;
+            text-align: center;
+        }
+        form {
+            background-color: aliceblue;
+            padding: inherit;
+        }
+        fieldset 
+        {
+            background-color: lavender;
+            padding: 10px;
+            font-family: monospace;
+            border-radius: 4px;
+        }
+        #search {
+            font-family: monospace;
+        }
+        input {
+            width: auto;
+            padding: 1px;
+            margin: 2px;
+        }
+        input[type=text] {
+           width: 250px;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+            
+        }
+        input[type=search] {
+            width: 100px;
+            text-align: center;
+            font-family: monospace;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+            background-color: azure;
+        }
+        #ip6, #ip5 {
+            color: brown;
+        }
+        #ip4 {
+            color: saddlebrown;
+        }
+        .direction {
+            font-family: sans-serif;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: blueviolet;
+            margin: 0px 50px 20px 10px;
+        }
+        td,th {
+            font-family: monospace;
+            border:1px solid black;
+            border-style: dotted;
+		      padding:5px;
+        }
+        .phone {
+            font-family: monospace;
+            border-collapse: collapse;
+            border-radius: 4px;
+            border-style: dashed;
+            border-width: 2px;
+            border-color: red;
+            border-left: blue solid 5px;
+            border-top-style: solid;
+            margin: 0px 50px 20px 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Smart Phone Accessories</h1>
+        <table class="direction">
+            <tr>
+                <td><a href="home.html">Home</a></td>
+                <td><a href="accessories.html">Accessories</a> </td>
+                <td> About </td>
+            </tr>
+            
+        </table>
+        <form>
+            <label id="search">Search <input type="text" name="Search" value="" maxlength="50"> </label>
+            <input type="search" value="Search">
+            <fieldset>
+            <legend> Accessories</legend>
+                <label id="ip4"><input type="radio" name="Accessories" value="iPhone">iPhone 4</label>
+                <label id="ip5"><input type="radio" name="Accessories" value="iPhone">iPhone 5</label>
+                <label id="ip6"><input type="radio" name="Accessories" value="iPhone">iPhone 6</label>
+            </fieldset>
+            <fieldset>
+                <legend>Price</legend>
+                <label>Less than 10 <input type="range" min="10" max="50" step="1" value="10" oninput="num.value = this.value" name="Price">50 RM </label>
+                <output id="num">10</output>
+            </fieldset>
+            <fieldset>
+                <legend>Designs</legend>
+            <input type="checkbox" id="Design1" name="Design1" value="Galaxy">
+            <label for="Design1"> Galaxy </label><br>
+            <input type="checkbox" id="Design2" name="Design2" value="Sky">
+            <label for="Design2"> Sky </label><br>
+            <input type="checkbox" id="Design3" name="Design3" value="Natural">
+            <label for="Design3"> Nature </label><br>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <div>
+        <table class="phone">
+            <tr>
+                <th>Phone Name</th>
+                <th>Phone Brand</th>
+                <th>Phone Price</th>
+            </tr>
+            <tr>
+                <td>iPhone XS</td>
+                <td>Apple</td>
+                <td>$ 2000</td>
+            </tr>
+        </table></div>
+        
+    </body>
+</html>

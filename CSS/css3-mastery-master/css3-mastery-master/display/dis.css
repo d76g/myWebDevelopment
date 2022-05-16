@@ -1,0 +1,18 @@
+.container {
+  margin: auto;
+  width: 1000px;
+}
+.wrap {
+  border: 1px solid blueviolet;
+  padding: 0px 10px;
+  margin: 10px 10px;
+  background-color: bisque;
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+a {
+  margin: 0;
+  padding: 0px 5px;
+  text-decoration: none;
+}

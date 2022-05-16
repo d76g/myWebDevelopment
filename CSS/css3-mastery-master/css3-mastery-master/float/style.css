@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid aqua;
+  margin: 50px auto;
+  width: 750px;
+  height: auto;
+}
+
+.pic-internship {
+  padding: 5px 20px;
+  background-color: antiquewhite;
+  margin: 30px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#pic-p-1 {
+  width: 44%;
+  float: left;
+}
+#pic-p-2 {
+  width: 44%;
+  float: right;
+}
+#pic-p-3 {
+  clear: both;
+}
+p {
+  text-align: left;
+}
+h3,
+h1 {
+  text-align: center;
+  padding: 10px 0px;
+}
+#pic-1 {
+  padding: 5px 0px;
+  padding-right: 10px;
+  width: 150px;
+  height: auto;
+  float: left;
+}
